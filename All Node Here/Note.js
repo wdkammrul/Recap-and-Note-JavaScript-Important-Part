@@ -7,7 +7,10 @@
  *  @@@ "3" DESTRUCTURING (ARRAY & OBJECT) START HERE @@@
     @@@ "4" Es6 (TEMPLATE STRING, ARROW FUNCTION, SPREAD OPERATOR) @@@@
  *
+    উপরের বিষয়গুলোই নিচে আমার মতো করে সাজিয়ে বুঝার চেস্টা করেছি । এই নোট করার সময় আমি কিন্তু প্রায় সবগুলোই বুঝতে পেরেছিলাম । 
  * 
+
+
  *  @@@@@@@@@@@@@@@@@@@@@@@@ "1" FUNDAMENTALS OF JS  START HERE @@@@@@@@@@@@@@@@@@@@@@@@
  * 
  * 
@@ -311,13 +314,13 @@
     ************* ‍২. OBJECT  DESTRUCTURING END *************  
 
 
-    @@@@@@@@@@@@@@@@@@@@@@@@ "3" DESTRUCTURING (ARRAY & OBJECT)  END HERE @@@@@@@@@@@@@@@@@@@@@@@@@@
+    @@@@@@@@@@@@@ "3" DESTRUCTURING (ARRAY & OBJECT)  END HERE @@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 
 
 
-    @@@@@@@@@@@ "4" Es6 (Template String, arrow function, spread operator) START HERE @@@@@@@@@@@
+    @@@@@@@ "4" Es6 (Template String, arrow function, spread operator) START HERE @@@@@@@@
 
     
     ************* ‍১. TEMPLATE STRING START HERE *************

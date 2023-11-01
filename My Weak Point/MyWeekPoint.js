@@ -70,4 +70,14 @@ const multiply = arr.map((current, index, arr) => {
 
 
 
+     // login and logout করার জন্য tarnary operator 
+
+     const user = null;
+
+     user?console.log('logout'):console.log('login');
+
+
+     
+
+
 
