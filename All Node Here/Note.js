@@ -338,20 +338,19 @@
 
 
 
-   // ************* ‍২. ARROW FUNCTION  START ************* 
+   ************* ‍২. ARROW FUNCTION  START ************* 
 
-    // Arrow function হলো ES6 এর একটি ফিচার যা একটি সুবিধাজনক পদ্ধতিতে ফাংশন লেখার সুযোগ প্রদান করে। এটি স্থানীয় ফাংশনের সহায়ে অনেক সংকটমুক্ত এবং সংক্ষেপে ফাংশন লেখা সহজ করে।
+    Arrow function হলো ES6 এর একটি ফিচার যা একটি সুবিধাজনক পদ্ধতিতে ফাংশন লেখার সুযোগ প্রদান করে। এটি স্থানীয় ফাংশনের সহায়ে অনেক সংকটমুক্ত এবং সংক্ষেপে ফাংশন লেখা সহজ করে।
 
-    //  ########## One. Without parameter start ############
+    ########## One. Without parameter start ############
     
 
     // normal function 
-    // function hello (){
-    //     return "hello"
-    // }
+    function hello (){
+          return "hello"
+    }
 
-    // single arrow function (without parameter)
-
+    //  single arrow function (without parameter)
     const hello = () => "hello"
 
     console.log(hello()) 
@@ -383,7 +382,7 @@
 
 
 
-    // ######### Four: multiline parameter start ###############
+    ######### Four: multiline parameter start ###############
 
        // এর মাধ্যমে মাল্টিলাইন ও ফাংশন করা যাবে । তবে এক্ষেত্রে অবশ্যই রিটার্ন করতে হবে ।
        const multiline = () => {
@@ -392,14 +391,61 @@
        
        console.log(multiline())
 
-    // ######### Four: multiline parameter emd  ###############
+    ######### Four: multiline parameter emd  ###############
 
 
 
-    //  ************* ‍২. ARROW FUNCTION  END *************  
+    ************* ‍২. ARROW FUNCTION  END *************  
+
+
+
+    ************* ‍৩. SPREAD OPERATOR (object & array)  START *************
+       
+    স্প্রেড অপারেটর হলো একটি ES6 ফীচার যা ডাটা কপি করতে এবং মোডিফাই করতে ব্যবহৃত হয়। উদাহরণে, এটি অ্যারে এবং অবজেক্টে ব্যবহৃত হতে পারে, যাতে আপনি পূর্বের ডাটার একটি কপি তৈরি করতে পারেন। এটি কোড লেখার সময় বেশ কাজে আসতে পারে, যেখানে আপনি ডাটা মোডিফাই করতে চাচ্ছেন তবে অসল ডাটা পরিবর্তন হবে না।
+
+
+    সংক্ষেপে যদি বলি, কোনো একটা অবজেক্ট বা অ্যারেকে কপি করে নতুন একটা অবজেক্ট বা অ্যারে তৈরি করার জন্য স্প্রেড অপারেটর তৈরি করা হয় । 
+     
+     
+
+     ############## 1. Array Spread Operator start############### 
+
+     const array = [10, 20, 30, 40, 50]
+
+     const newArray = [...array, 60, 70, 80]
+    // newArray.push(60) // এভাবেও পুস করে অ্যাড করা যায় অথবা উপরে 
+
+     
+     console.log('Main Array', array)  // [ 10, 20, 30, 40, 50 ]
+     console.log(newArray) // [ 10, 20, 30, 40, 50, 60, 70, 80 ]
+
+
+    ############## 1. Array Spread Operator end ############### 
+
+
+
+    ############## 2. Object Spread Operator start ############### 
+
+    const obj = {
+         name: 'Kamrul', 
+         age: 10
+    }
+
+    const newObject = {...obj, height: '5.6'}
+
+
+    console.log(obj) // { name: 'Kamrul', age: 10 }
+    console.log(newObject)  // { name: 'Kamrul', age: 10, height: '5.6' }
+
+    ############## 2. Object Spread Operator end ############### 
+
+
+
+
+    ************* ‍৩. SPREAD OPERATOR  END *************
 
     
-    @@@@@@@@@@@ "4" Es6 (Template String, arrow function, spread operator) END HERE @@@@@@@@@@@
+   @@@@@@ "4" Es6 (Template String, arrow function, spread operator) END HERE @@@@@@@@@@@
 
 
  * 
